@@ -1,10 +1,11 @@
-const express = require('express')
-const app = express()
+const app = require('./app')
+
 const PORT = 1001
 
-app.get('/', (req, res)=>{
-    res.send('Router')
-})
+
+// page not found
+
+
 app.listen(PORT, ()=>{
     console.log(`Server is running at http://localhost:${PORT}`)
 })
